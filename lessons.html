@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стежинка до знань — Заняття та вартість</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+    />
+
+    <!-- Your site styles -->
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+<!-- TOP BAR -->
+<div class="topbar bg-dark">
+    <div class="container d-flex flex-wrap align-items-center py-2 small">
+
+        <div class="d-none d-md-flex d-flex flex-wrap align-items-center gap-3 text-white-50">
+            <a class="topbar-link text-white-50" href="mailto:stezhynka.center@gmail.com">stezhynka.center@gmail.com</a>
+            <a class="topbar-link text-white-50" href="tel:+380XXXXXXXXX">+380XXXXXXXXX</a>
+        </div>
+
+        <div class="d-flex gap-2 ms-auto">
+            <a class="topbar-link text-white" href="https://www.instagram.com/stezhynka.centr" aria-label="Instagram">Instagram</a>
+            <span class="topbar-link text-white">|</span>
+            <a class="topbar-link text-white" href="https://www.facebook.com/profile.php?id=100075668005630" aria-label="Facebook">Facebook</a>
+        </div>
+    </div>
+</div>
+<!-- TOP BAR END-->
+
+<header class="page-header">
+    <div class="container">
+        <!-- NAV PILL -->
+        <div class="navpill-wrap pt-3 pt-lg-4">
+            <div class="navpill">
+                <a class="brand d-flex align-items-center gap-3 text-decoration-none" href="./index.html">
+                    <img
+                            src="assets/images/logo3.png"
+                            alt="Стежинка до знань"
+                            class="brand-logo"
+                    />
+                    <span class="d-flex flex-column lh-sm">
+                      <span class="brand-name">СТЕЖИНКА ДО ЗНАНЬ</span>
+                      <span class="brand-sub">центир розвитку дитини</span>
+                    </span>
+                </a>
+
+                <nav class="navpill-menu d-none d-md-flex align-items-center gap-4">
+                    <a class="navpill-link" href="./about.html">Про нас</a>
+                    <a class="navpill-link" href="./lessons.html">Заняття та вартість</a>
+                    <a class="navpill-link" href="./schedule.html">Розклад</a>
+                    <a class="navpill-link" href="./contacts.html">Контакти</a>
+                </nav>
+
+                <!-- MOBILE BUTTON -->
+                <button
+                        class="btn btn-pill btn-ghost d-md-none"
+                        type="button"
+                        id="mobile-menu-btn"
+                        aria-label="Відкрити меню"
+                        aria-expanded="false"
+                >
+                    <svg
+                            class="burger-icon"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                    >
+                        <line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+
+                <div id="mobile-menu" class="mobile-menu d-md-none" hidden>
+                    <a href="./about.html">Про нас</a>
+                    <a href="./lessons.html">Заняття та вартість</a>
+                    <a href="./schedule.html">Розклад</a>
+                    <a href="./contacts.html">Контакти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-4 py-lg-5">
+            <h1 class="page-title">Заняття та вартість</h1>
+
+            <!-- category line like on example -->
+            <div class="lessons-cats mt-3">
+                <a class="lessons-cat" href="#early">Ранній розвиток</a>
+                <a class="lessons-cat" href="#school">Підготовка до школи</a>
+                <a class="lessons-cat" href="#english">Англійська мова</a>
+                <a class="lessons-cat" href="#logic">Логіка</a>
+                <a class="lessons-cat" href="#creative">Творчість</a>
+                <a class="lessons-cat" href="#minikind">Міні-садок</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="page-content">
+    <div class="container pb-5">
+
+        <!-- 1) Early development -->
+        <section id="early" class="lesson-section">
+            <h2 class="lesson-title">Ранній розвиток</h2>
+
+            <div class="lesson-card">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Розвиток мовлення, пам’яті, мислення</li>
+                                <li>Сенсорний розвиток</li>
+                                <li>Формування конструктивної діяльності</li>
+                                <li>Фізичний, музичний та естетичний розвиток</li>
+                                <li>Творча майстерня для малюків</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-pricegrid">
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">8 занять на місяць</div>
+                                    <div class="lesson-price__value">1600 грн</div>
+                                </div>
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta" href="mailto:stezhynka.center@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2) Mini-kindergarten -->
+        <section id="minikind" class="lesson-section">
+            <h2 class="lesson-title">Міні-садок</h2>
+
+            <div class="lesson-card">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Розвиваючі заняття / підготовка до школи</li>
+                                <li>Творчі заняття</li>
+                                <li>Музичне виховання</li>
+                                <li>Ритмічні / хореографічні навички</li>
+                                <li>Пізнання оточуючого світу</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-pricegrid lesson-pricegrid--2">
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">2 рази на тиждень</div>
+                                    <div class="lesson-price__value">2400 грн</div>
+                                </div>
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">3 рази на тиждень</div>
+                                    <div class="lesson-price__value">3600 грн</div>
+                                </div>
+                            </div>
+
+                            <div class="lesson-divider"></div>
+
+                            <div class="lesson-price lesson-price--big">
+                                <div class="lesson-price__label">щоденний абонемент</div>
+                                <div class="lesson-price__value">5000 грн/міс</div>
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta" href="mailto:stezhynka.center@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3) School prep -->
+        <section id="school" class="lesson-section">
+            <h2 class="lesson-title">Підготовка до школи</h2>
+
+            <div class="lesson-card">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Підготовка до школи</li>
+                                <li>Навчання читання, розвиток мовлення</li>
+                                <li>Формування математичних уявлень</li>
+                                <li>Розвиток дрібної моторики, підготовка руки до письма</li>
+                                <li>Розвиток пізнавальних процесів</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-pricegrid">
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">8 занять на місяць</div>
+                                    <div class="lesson-price__value">1800 грн</div>
+                                </div>
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta" href="mailto:stezhynka.center@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4) English -->
+        <section id="english" class="lesson-section">
+            <h2 class="lesson-title">Англійська мова</h2>
+
+            <div class="lesson-card">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Розвиток психічних процесів</li>
+                                <li>Творчі здібності</li>
+                                <li>Емоційно-вольові якості</li>
+                                <li>Удосконалення всіх сторін рідної мови</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-pricegrid">
+                                <div class="lesson-price">
+                                    <div class="lesson-price__label">8 занять на місяць</div>
+                                    <div class="lesson-price__value">1600 грн</div>
+                                </div>
+                            </div>
+
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta" href="mailto:stezhynka.center@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5) Math/Logic club -->
+        <section id="logic" class="lesson-section">
+            <h2 class="lesson-title">Математичний клуб</h2>
+
+            <div class="lesson-card">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Шахи</li>
+                                <li>Логіка</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-actions lesson-actions--center">
+                                <a class="btn btn-pill btn-cta " href="mailto:stezhynka.center@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6) Creative -->
+        <section id="creative" class="lesson-section">
+            <h2 class="lesson-title">Творча майстерня</h2>
+
+            <div class="lesson-card">
+                <div class="row g-4 align-items-stretch">
+                    <div class="col-lg-6">
+                        <div class="lesson-left">
+                            <div class="lesson-subtitle">РОЗВИВАЮЧІ НАВИЧКИ:</div>
+                            <ul class="lesson-list">
+                                <li>Творчість</li>
+                                <li>Майстер класи</li>
+                                <li>Кулінарна майстерня</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="lesson-right">
+                            <div class="lesson-note">вартість занять уточнюйте у адміністратора</div>
+                            <div class="lesson-actions">
+                                <a class="btn btn-pill btn-cta" href="mailto:stezhynka.center@gmail.com">ЗАПИСАТИСЯ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<div id="question-banner"></div>
+<div id="small-footer"></div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/main.js"></script>
+</body>
+</html>
