@@ -325,11 +325,11 @@ body {
     box-shadow: var(--shadow-soft);
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 160px;
+    grid-template-columns: 1fr 200px;
     gap: 16px;
     align-items: start;
 }
-@media (max-width: 575px) {
+@media (max-width: 991px) {
     .lesson-card { grid-template-columns: 1fr; }
 }
 
@@ -355,8 +355,8 @@ body {
 
 .lesson-card__art { display: grid; place-items: center; }
 .kid-illus {
-    width: 120px;
-    height: 120px;
+    width: 200px;
+    height: auto;
     border-radius: 999px;
     position: relative;
 }
@@ -700,7 +700,7 @@ body {
     font-weight: 900;
     font-size: 28px;
     margin: 18px 0 14px;
-    color: var(--c-orange);
+    color: var(--c-text);
     text-shadow: 0 6px 20px rgba(0,0,0,.06);
 }
 
@@ -733,7 +733,7 @@ body {
     font-weight: 700;
 }
 .lesson-list li::marker{
-    color: var(--c-orange);
+    color: var(--c-orange-1);
 }
 
 .lesson-right{
@@ -807,32 +807,6 @@ body {
 
 .lesson-actions--center{
     margin-top: 0;
-}
-
-.btn-book{
-    background: var(--c-yellow);
-    border: 0;
-    color: rgba(0,0,0,.65);
-    font-weight: 900;
-    padding: 10px 22px;
-    box-shadow: 0 10px 22px rgba(0,0,0,.10);
-}
-.btn-book:hover{
-    filter: brightness(.98);
-    color: rgba(0,0,0,.75);
-}
-
-.btn-more{
-    background: var(--c-green);
-    border: 0;
-    color: rgba(255,255,255,.95);
-    font-weight: 900;
-    padding: 10px 22px;
-    box-shadow: 0 10px 22px rgba(0,0,0,.10);
-}
-.btn-more:hover{
-    filter: brightness(.98);
-    color: rgba(255,255,255,.95);
 }
 
 
