@@ -652,13 +652,19 @@ body {
     font-size: 22px;
 }
 
+.col-time{
+    width: 20%;
+}
 .schedule-grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 22px;
 }
 @media (max-width: 991px){
     .schedule-grid{ grid-template-columns: 1fr; }
+    .col-time{
+        width: 35%;
+    }
 }
 
 .schedule-table-light th{
