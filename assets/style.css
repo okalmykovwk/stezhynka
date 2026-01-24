@@ -524,10 +524,13 @@ body {
    CONTACTS PAGE (uses same theme vars)
    ========================= */
 .page-header{
-    background:
-            linear-gradient(#f7f7f7, #f7f7f7),
-            radial-gradient(circle at 12px 12px, rgba(0,0,0,.04) 2px, transparent 2px);
-    background-size: auto, 42px 42px;
+    background: radial-gradient(1200px 600px at 70% 40%, rgba(255,255,255,.12), transparent 60%),
+    linear-gradient(180deg, var(--c-hero), var(--c-hero-2));
+    padding-bottom: 1.5rem;
+}
+
+@media (max-width: 991px){
+    .page-header{ padding-bottom: 1rem }
 }
 
 .page-title{
