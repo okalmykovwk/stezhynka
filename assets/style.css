@@ -333,19 +333,13 @@ body {
     .lesson-card { grid-template-columns: 1fr; }
 }
 
-.lesson-title {
+.lesson-title-main {
     font-weight: 900;
     font-size: 18px;
     margin-bottom: 10px;
 }
-.lesson-title--green { color: #39a300; }
-.lesson-title--blue  { color: #2f7cff; }
-.lesson-title--purple{ color: #7c3aed; }
-.lesson-title--pink  { color: #ec4899; }
-.lesson-title--orange{ color: #f97316; }
-.lesson-title--teal  { color: #14b8a6; }
 
-.lesson-list {
+.lesson-list-main {
     margin: 0;
     padding-left: 16px;
     color: var(--c-muted);
@@ -723,13 +717,15 @@ body {
 
 .lesson-left{
     padding: 10px 10px 10px 6px;
+    color: rgba(0,0,0,.55);
 }
 
 .lesson-subtitle{
-    font-size: 12px;
-    font-weight: 900;
-    color: rgba(0,0,0,.45);
+    /*font-size: 12px;*/
+    /*font-weight: 900;*/
+    /*color: rgba(0,0,0,.45);*/
     margin-bottom: 10px;
+    color: rgba(0,0,0,.55);
 }
 
 .lesson-list{
@@ -739,7 +735,8 @@ body {
 .lesson-list li{
     margin: 8px 0;
     color: rgba(0,0,0,.55);
-    font-weight: 700;
+    /*color: rgba(0,0,0,.55);*/
+    /*font-weight: 700;*/
 }
 .lesson-list li::marker{
     color: var(--c-orange-1);
