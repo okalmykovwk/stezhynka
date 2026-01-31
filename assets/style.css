@@ -325,7 +325,7 @@ body {
     box-shadow: var(--shadow-soft);
     padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 200px;
+    grid-template-columns: 200px 1fr;
     gap: 16px;
     align-items: start;
 }
